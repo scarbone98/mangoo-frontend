@@ -1,0 +1,26 @@
+@import "variables";
+*, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  font-family: sans-serif;
+}
+body {
+  background: $background;
+  font-family: Roboto;
+  letter-spacing: 0.09em;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  letter-spacing: 0.15em;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: $highlight;
+}

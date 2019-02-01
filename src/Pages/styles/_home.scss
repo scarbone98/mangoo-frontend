@@ -1,0 +1,13 @@
+@import "../../utilities/variables";
+
+.input-container {
+    display: flex;
+}
+.home-content-container {
+    padding: 1em 1em 0 2em;
+}
+@media only screen and (max-width: 1000px) {
+    .home-content-container {
+        padding: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.row-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  overflow: hidden;
+}
+.row-title {
+  font-size: 2em;
+}
+section {
+  padding: 1rem;
+}
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}

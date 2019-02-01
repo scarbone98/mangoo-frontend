@@ -1,0 +1,35 @@
+@import "../../../utilities/variables";
+
+.top-bar-container {
+  height: 65px;
+  width: 100%;
+  border-bottom: #ebebeb 1px solid;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.icon-container {
+  height: 50px;
+  width: 50px;
+  margin-right: 1rem;
+}
+.top-bar-elements-container {
+  padding: 1em;
+  display: flex;
+}
+
+.top-bar-element {
+  margin: 0 5px;
+  height: 50px
+}
+.top-bar-element:hover {
+  border-bottom: black 1px solid;
+}
+
+.search-bar {
+  width: 384px;
+  height: 50px;
+  border-radius: 4px;
+}

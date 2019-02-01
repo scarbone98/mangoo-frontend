@@ -1,0 +1,27 @@
+@import "../../../utilities/variables";
+* {
+  background: transparent;
+}
+.post-container {
+  width: 20%;
+  min-width: 300px;
+  margin-right: 1em;
+}
+.post-content {
+  padding: 0.2em;
+}
+.image-container {
+  width: 100%;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+button {
+  border: 0 transparent;
+  background: transparent;
+  cursor: pointer;
+  padding: 0.25rem;
+}
