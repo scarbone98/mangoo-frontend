@@ -1,0 +1,43 @@
+.login-main-container {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../assets/mangoo-bg.jpg");
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+.landing-page-top {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  color: white;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.login-form-container {
+  margin-bottom: 30vh;
+  margin-left: 15vw;
+}
+.login-form {
+  background: #fafafb;
+  padding: 2em;
+  border-radius: 2px;
+  width: 350px;
+  -webkit-box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.5);
+}
+.login-form > p {
+  font-weight: bold;
+  line-height: 2em;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
