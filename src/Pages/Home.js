@@ -3,7 +3,7 @@ import './styles/_home.scss';
 import Post from '../components/general/post/Post';
 import Row from '../components/general/row/Row';
 import api from '../api/APIManager';
-
+import Video from '../components/general/video/Video';
 let tester = () => {
     api.createPost(
         {
@@ -56,6 +56,7 @@ export default () => {
                 <Row title={"Interior Work"}>
                     {posts}
                 </Row>
+                <Video/>
                 <button onClick={tester}>Tester</button>
             </div>
         </>
