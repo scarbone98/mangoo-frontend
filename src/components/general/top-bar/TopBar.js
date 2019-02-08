@@ -1,6 +1,5 @@
 import React from 'react';
 import './_top-bar.scss';
-import {Link} from "react-router-dom";
 
 export default () => {
     return (

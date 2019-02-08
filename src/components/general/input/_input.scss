@@ -1,0 +1,23 @@
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+input {
+  background: white;
+  width: 300px;
+  height: 40px;
+  border: #ebebeb 1px solid;
+  border-radius: 5px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.25em;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  -webkit-text-fill-color: #333;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import './utilities/_main.scss';
-import Login from './Pages/Login';
-import Home from './Pages/Home';
+import Login from './pages/Login';
+import Home from './pages/Home';
 import TopBar from './components/general/top-bar/TopBar';
 export default () => {
     return (
